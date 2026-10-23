@@ -1,0 +1,29 @@
+{
+  "name": "luna-discord-bot",
+  "version": "1.1.0",
+  "description": "Luna, bot Discord bergaya Character.ai berbahasa Indonesia gaul (lu/gw), ditenagai Google Gemini",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "check": "node --check index.js"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "gemini",
+    "character-ai",
+    "chatbot",
+    "indonesia"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "discord.js": "^14.16.0",
+    "dotenv": "^16.4.5"
+  }
+}
